@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SYNEON LAB</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span>SYNEON LAB</span>
+      <img src="./assets/hero-mini-logo.png" alt="" />
+    </a>
+
+    <nav>
+      <a href="#products">products</a>
+      <a href="#process">process</a>
+      <a href="#assistant">AI assistant</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-sheen"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-orb hero-orb-one"></div>
+      <div class="hero-orb hero-orb-two"></div>
+      <div class="hero-orb hero-orb-three"></div>
+
+      <div class="hero-copy reveal">
+        <h1>Clean skincare for hydrated, radiant, and balanced skin.</h1>
+        <div class="light-line"></div>
+        <p>Intelligent skin-health guidance for visible transformation.</p>
+
+        <div class="hero-actions">
+          <a class="button-animated" href="#assistant">Start AI skin match</a>
+          <a class="button-animated" href="#products">Shop routine</a>
+        </div>
+      </div>
+
+      <div class="hero-logo-wrap reveal">
+        <span class="logo-aura"></span>
+        <img class="hero-logo" src="./assets/hero-logo.png" alt="SYNEON LAB 3D logo" />
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="section-title reveal">
+        <h2>Natural skincare products for every routine</h2>
+        <p>
+          Discover our clean skincare collection of serums, cleansers, toners,
+          masks, and soft daily treatments carefully formulated for glowing,
+          balanced skin.
+        </p>
+      </div>
+
+      <div class="product-row reveal">
+        <button class="arrow button-animated" type="button" aria-label="Previous product" data-carousel="prev">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M15 5 8 12l7 7" />
+            <path d="M9 12h11" />
+          </svg>
+        </button>
+
+        <article class="product-card mint is-active">
+          <img src="./assets/product-mask.png" alt="Cleansing Foam" />
+          <h3>Cleansing Foam</h3>
+          <p>Centella foam cleanser for soft daily purification.</p>
+          <button class="button-animated" type="button">Add to cart</button>
+        </article>
+
+        <article class="product-card lilac">
+          <img src="./assets/product-toner.png" alt="Clear Toner" />
+          <h3>Clear Toner</h3>
+          <p>Poremizing toner for refined, fresh-looking skin.</p>
+          <button class="button-animated" type="button">Add to cart</button>
+        </article>
+
+        <article class="product-card pearl">
+          <img src="./assets/product-serum.png" alt="Radiance Ampoule" />
+          <h3>Radiance Ampoule</h3>
+          <p>Brightening serum-oil for luminous even-toned skin.</p>
+          <button class="button-animated" type="button">Add to cart</button>
+        </article>
+
+        <button class="arrow button-animated" type="button" aria-label="Next product" data-carousel="next">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M9 5l7 7-7 7" />
+            <path d="M4 12h11" />
+          </svg>
+        </button>
+      </div>
+
+      <a class="collection-link button-animated reveal" href="#assistant">
+        Browse the full skincare collection
+      </a>
+    </section>
+
+    <section class="process" id="process">
+      <div class="process-heading reveal">
+        <div>
+          <h2>SYNEON LAB</h2>
+          <p>PROCESS OF CREATING</p>
+        </div>
+        <img src="./assets/hero-mini-logo.png" alt="" />
+      </div>
+
+      <div class="steps">
+        <article class="reveal">
+          <img src="./assets/process-lab.png" alt="Lab formulation process" />
+          <span>Formula research</span>
+          <h3>Step 01</h3>
+          <h4>Analyze skin needs</h4>
+          <p>We study hydration, sensitivity, texture, and barrier condition before choosing each active ingredient.</p>
+        </article>
+
+        <article class="reveal">
+          <img src="./assets/process-bubbles.png" alt="Formula texture testing" />
+          <span>Texture testing</span>
+          <h3>Step 02</h3>
+          <h4>Refine the formula</h4>
+          <p>Every texture is tested for softness, absorption, and a clean finish that feels light on the skin.</p>
+        </article>
+
+        <article class="reveal">
+          <img src="./assets/process-packaging.png" alt="Product packaging" />
+          <span>Clinical packaging</span>
+          <h3>Step 03</h3>
+          <h4>Prepare the routine</h4>
+          <p>Products are packed in soft, hygienic materials and organized into a simple morning or evening routine.</p>
+        </article>
+
+        <article class="reveal">
+          <img src="./assets/process-skin.png" alt="Serum applied to skin" />
+          <span>Personal guidance</span>
+          <h3>Step 04</h3>
+          <h4>Apply and track glow</h4>
+          <p>The assistant connects the product to skin goals, then helps track visible progress over time.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="assistant" id="assistant">
+      <div class="assistant-heading reveal">
+        <h2>AI assistant</h2>
+        <p>
+          A visual demo of how SYNEON LAB can analyze a skin photo and suggest
+          the most relevant product. This is a concept interaction, not a real diagnosis.
+        </p>
+      </div>
+
+      <div class="assistant-grid">
+        <article class="ai-card scan-card reveal">
+          <div class="scan-icon"></div>
+          <h3>Scan your skin</h3>
+          <p>AI assistant analyzes tone, texture, hydration, and visible skin layers.</p>
+        </article>
+
+        <article class="ai-card progress-card reveal">
+          <div class="progress-orb">74%</div>
+          <h3>Progress</h3>
+          <p>Track how the routine changes hydration and glow over time.</p>
+        </article>
+
+        <article class="ai-card gradient-card reveal">
+          <span>✦</span>
+          <h3>Personal match</h3>
+          <p>We select cosmetics for your skin type and routine goals.</p>
+        </article>
+
+        <article class="ai-card image-card reveal">
+          <img src="./assets/ai-products.png" alt="Recommended skincare pack" />
+          <div>
+            <span>Your skincare pack is ready</span>
+            <strong>Clear Toner + Radiance Ampoule</strong>
+            <small>Recommended for hydrated glow and refined texture.</small>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="final-cta reveal">
+      <img src="./assets/hero-mini-logo.png" alt="" />
+      <h2>Build your glow routine with intelligent skincare guidance.</h2>
+      <a class="button-animated" href="#products">Explore SYNEON LAB</a>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
